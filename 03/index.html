@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 600px)" />
+    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1200px)" />
     <title>devmentor.pl - HTML & CSS: RWD - #03</title>
-</head>
-<body>
-    
-    <main class="t">T</main>
-    <header class="p">P</header>
-    <side class="v">V</side>
-
-</body>
+  </head>
+  <body>
+    <main class="t">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+        exercitationem earum illum voluptatum amet veritatis, obcaecati corrupti
+        aut sed nobis architecto tempore vitae laboriosam facere sit quasi
+        blanditiis. Eius non ratione asperiores at beatae dolorem repellat natus
+        inventore cum, nisi numquam recusandae fugit exercitationem. Beatae,
+        quas nemo doloremque debitis quidem nesciunt tempore dolore maiores
+        voluptatibus minus labore voluptates mollitia modi expedita quisquam qui
+        magni consequuntur, eligendi eius officia. Molestiae quidem ratione
+        nisi, placeat tenetur nobis repudiandae voluptas quam possimus qui vero
+        dicta quisquam, ab, itaque debitis corrupti eos sed pariatur! Amet
+        voluptatibus nesciunt quia soluta. Odio fugit reiciendis magni sint
+        veniam earum quaerat. Voluptas maiores repellat illum dolorum, laborum,
+        ea in aliquam ratione explicabo magni cupiditate at cumque ab excepturi.
+      </p>
+    </main>
+    <header class="p">
+      <picture>
+        <source srcset="./images/cat-1920w.jpg" media="(min-width: 1200px)" />
+        <source srcset="./images/cat-1280w.jpg" media="(min-width: 600px)" />
+        <source srcset="./images/cat-640w.jpg" />
+        <img src="./images/cat-1920w.jpg" alt="cat" />
+      </picture>
+    </header>
+    <aside class="v">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/phWxA89Dy94?si=1ewjYFKsLs2rvrZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </aside>
+  </body>
 </html>
